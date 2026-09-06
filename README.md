@@ -503,28 +503,31 @@ These extensions move beyond the scope of the original project and toward modern
 ## Repository Structure
 
 ```text
-.
-├── src/
-│   ├── yolo_tracking_control.py
-│   └── opencv_color_tracking_control.py
-│
-├── models/
-│   ├── train_blocks.py
-│   ├── prepare_block_dataset.py
-│   └── block_data.yaml
-│
-├── docs/
-│   └── serial-protocol.md
-│
-├── hardware/
-│   └── hardware picture.jpeg
-│
-├── media/
-│   ├── system_overview.jpg
-│   └── demo_pick_and_place.mp4
-│
-└── README.md
+vision-guided-robotic-arm/
+├── README.md
+└── robotic-arm-object-pickup/
+    ├── src/
+    │   ├── opencv_color_tracking_control.py
+    │   └── yolo_tracking_control.py
+    │
+    ├── models/
+    │   ├── block_data.yaml
+    │   ├── prepare_block_dataset.py
+    │   └── train_blocks.py
+    │
+    ├── docs/
+    │   └── serial-protocol.md
+    │
+    ├── hardware/
+    │   └── Hardware picture.jpeg
+    │
+    └── media/
+        ├── demo_pick_and_place.mp4
+        └── system_overview.jpg
 ```
+
+The repository separates the main control code, YOLO training utilities, communication documentation, hardware reference material, and demonstration media into dedicated directories.
+
 
 ---
 
