@@ -533,23 +533,14 @@ The repository separates the main control code, YOLO training utilities, communi
 
 ## Demo
 
-Add the final system demonstration here.
+The following image shows the physical robotic-arm setup used in the project.
 
-Recommended format:
+![System Overview](robotic-arm-object-pickup/media/system_overview.jpg)
 
-```markdown
-![System Overview](media/system_overview.jpg)
+A demonstration of the vision-guided object pickup system is available below:
 
-[Watch the robotic-arm demonstration](media/demo_pick_and_place.mp4)
-```
+[Watch the robotic-arm demonstration](robotic-arm-object-pickup/media/demo_pick_and_place.mp4)
 
-A short GIF showing:
-
-```text
-Search → Detect → Align → Grasp
-```
-
-is recommended for the top section of the repository.
 
 ---
 
