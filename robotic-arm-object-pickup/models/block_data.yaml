@@ -6,4 +6,4 @@ val: val/images
 nc: 1
 
 names:
-  0: target_block
+  0: white_block
