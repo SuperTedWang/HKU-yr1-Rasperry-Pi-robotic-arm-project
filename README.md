@@ -517,7 +517,7 @@ These extensions move beyond the scope of the original project and toward modern
 │   └── serial-protocol.md
 │
 ├── hardware/
-│   └── hardware documentation
+│   └── hardware picture.jpeg
 │
 ├── media/
 │   ├── system_overview.jpg
