@@ -519,7 +519,7 @@ vision-guided-robotic-arm/
     │   └── serial-protocol.md
     │
     ├── hardware/
-    │   └── Hardware picture.jpeg
+    │   └── Hardware_picture.jpeg
     │
     └── media/
         ├── demo_pick_and_place.mp4
